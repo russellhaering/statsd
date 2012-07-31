@@ -44,7 +44,7 @@ Optional Variables:
     application:    name of the application for syslog [string, default: statsd]
     level:          log level for [node-]syslog [string, default: LOG_INFO]
 
-  prefixPersecond:  graphite prefix for counter per second metrics [default: "statsd."]
+  prefixPersecond:  graphite prefix for counter per second metrics [default: "stats."]
   prefixCount:      graphite prefix for count metrics [default: "stats_counts."]
   prefixTimer:      graphite prefix for timer metrics [default: "stats.timers."]
   prefixGauge:      graphite prefix for gauge metrics [default: "stats.gauges."]
